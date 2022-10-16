@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    
+    background-color: #1E1E1E;
+}
+
+body > header {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#workout {
+    color: #FAFAF9;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#nav-items {
+    color: #FAFAF9;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+body > header > div > nav {
+    display: flex;
+}
+
+body > header > div > nav > li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+#workout-with-me {
+    /* font-family: 'SF Pro Display'; */
+    font-weight: 800;
+    font-size: 172px;
+    line-height: 170px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #FAFAF9;
+}
+body > section {
+    display: flex;
+    justify-content: center;
+}
+
+#text-banner {
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+body section div div {
+    margin-top: 50px;
+}
+
+#button-club {
+    background-color: #E6533C;
+    border-radius: 10px;
+    padding: 24px 25px;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+#link-club:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#link-club:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#link-club:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
