@@ -66,6 +66,8 @@ body section div div {
 }
 
 #button-club {
+    /* width: 200px;
+    height: 70px; */
     background-color: #E6533C;
     border-radius: 10px;
     padding: 24px 25px;
@@ -77,17 +79,11 @@ body section div div {
     letter-spacing: 1px;
 }
 
-#link-club:link {
+#link-club:link, #link-club:active, #link-club:visited, #link-club:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-#link-club:active {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-#link-club:visited {
-    color: #FFFFFF;
-    text-decoration: none;
+body section div div button a span {
+    background-color: #E6533C;
 }
